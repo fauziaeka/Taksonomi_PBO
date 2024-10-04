@@ -7,7 +7,7 @@
 # 📑 Daftar Isi  
 
 - [Utama](https://github.com/fauziaeka/TugasPBO_TM1/blob/main/Utama.java) 
-- [Superclass(Makhluk Hidup)](https://github.com/fauziaeka/TugasPBO_TM1/blob/main/MakhlukHidup.java) 
+- [Superclass (Makhluk Hidup)](https://github.com/fauziaeka/TugasPBO_TM1/blob/main/MakhlukHidup.java) 
 - [Subclass (Hewan)](https://github.com/fauziaeka/TugasPBO_TM1/blob/main/Hewan.java) 
 - [Subclass Hewan (Aves)](https://github.com/fauziaeka/TugasPBO_TM1/blob/main/Aves.java) 
 - [Subclass Hewan (Mamalia)](https://github.com/fauziaeka/TugasPBO_TM1/blob/main/Mamalia.java) 
@@ -141,7 +141,7 @@ public class MakhlukHidup {
     }   
 }
 ```
-## 🐄 1. Subclass Hewan yang akan meng-extend superclass MakhlukHidup
+## 🐄 1. Subclass Hewan extend superclass MakhlukHidup
 
 ```
 public class Hewan extends MakhlukHidup {
@@ -156,7 +156,7 @@ public class Hewan extends MakhlukHidup {
 }
 
 ```
-## 🦜a. Class Aves akan meng-extend subclass Hewan 
+## 🦜a. Class Aves extend subclass Hewan 
 
 ```
 public class Aves extends Hewan {
@@ -178,7 +178,7 @@ public class Aves extends Hewan {
 }
 ``` 
 
-## 🐘 b. Class Mamalia akan meng-extend subclass Hewan 
+## 🐘 b. Class Mamalia extend subclass Hewan 
 
 ```
 public class Mamalia extends Hewan {
@@ -200,7 +200,7 @@ public class Mamalia extends Hewan {
 }
 ``` 
 
-## 🐸 c. Class Amfibi akan meng-extend subclass Hewan 
+## 🐸 c. Class Amfibi extend subclass Hewan 
 
 ```
 public class Amfibi extends Hewan {
@@ -222,7 +222,7 @@ public class Amfibi extends Hewan {
 }
 ``` 
 
-## 🦎 d. Class Reptil akan meng-extend subclass Hewan 
+## 🦎 d. Class Reptil extend subclass Hewan 
 
 ```
 public class Reptil extends Hewan {
@@ -244,7 +244,7 @@ public class Reptil extends Hewan {
 }
 ``` 
 
-## 🐟 e. Class Pisces akan meng-extend subclass Hewan 
+## 🐟 e. Class Pisces extend subclass Hewan 
 
 ```
 public class Pisces extends Hewan {
@@ -270,7 +270,7 @@ public class Pisces extends Hewan {
 }
 ``` 
 
-## 🍀 2. Subclass Tumbuhan yang akan meng-extend superclass MakhlukHidup 
+## 🍀 2. Subclass Tumbuhan extend superclass MakhlukHidup 
 
 ```
 public class Tumbuhan extends MakhlukHidup {
@@ -293,7 +293,7 @@ public class Tumbuhan extends MakhlukHidup {
 }
 ``` 
 
-## 🌾 a. Class Monokotil yang akan meng-extend subclass Tumbuhan 
+## 🌾 a. Class Monokotil extend subclass Tumbuhan 
 
 ```
 public class Monokotil extends Tumbuhan {
@@ -316,7 +316,7 @@ public class Monokotil extends Tumbuhan {
 }
 ``` 
 
-## 🌹 b. Class Dikotil yang akan meng-extend subclass Tumbuhan
+## 🌹 b. Class Dikotil extend subclass Tumbuhan
 
 ```
 public class Dikotil extends Tumbuhan {
@@ -340,7 +340,7 @@ public class Dikotil extends Tumbuhan {
 ---
 # 🔧 Setter dan Getter
 
-Method setter dan getter harus diberikan modifier public karena method ini akan diakses dari luar class 
+- Method setter dan getter harus diberikan modifier public karena method ini akan diakses dari luar class 
 
 - Setter merupakan method yang digunakan untuk mengatur nilai dari atribut privat suatu class. Method setter tidak memiliki nilai kembalian void(kosong), karena tugasnya hanya mengisi data ke dalam atribut. Penamaan pada method set biasanya diberi awalan set kemudian diikuti dengan nama atribut.  
 
