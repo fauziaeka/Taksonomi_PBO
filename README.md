@@ -346,7 +346,7 @@ Method setter dan getter harus diberikan modifier public karena method ini akan 
 
 - Getter merupakan method yang digunakan unutk mengambil nilai dari atribut privat suatu class. Berbeda dengan method setter yang tidak memiliki nilai kembalian, method getter memiliki nilai kembalian sesuai dengan tipe data yang akan diambil. Penamaan pada method getter biasanya diberi awalan get kemudian diikuti dengan nama atribut.  
 
-## 🔍 Source Code penerapan setter dan getter 
+## 🔍 Source Code penerapan Setter dan Getter 
 
 ```
 public class Aves extends Hewan {
