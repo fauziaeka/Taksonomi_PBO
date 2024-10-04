@@ -2,7 +2,8 @@
 
 # 📚 Topik Utama  
 - Inheritance 
-- Setter & Getter 
+- Setter & Getter
+- Kesimpulan
 
 # 📑 Daftar Isi  
 
@@ -20,8 +21,8 @@
 
 # 🌱 Inheritance  
 
-PBO_PertemuanPertama adalah contoh penerapan konsep inheritance. Inheritance (pewarisan) adalah salah satu konsep dasar dalam pemrograman berorientasi objek (OOP) 
-yang memungkinkan sebuah kelas (subclass atau child class) untuk mewarisi atribut dan metode dari kelas lain (superclass atau parent class). Dalam projek ini, 
+PBO_PertemuanPertama adalah contoh penerapan konsep inheritance. Inheritance (pewarisan) adalah salah satu konsep dasar dalam Pemrograman Berorientasi Objek (PBO)
+yang memungkinkan sebuah class (subclass) untuk mewarisi atribut dan metode dari kelas lain (superclass). Dalam projek ini, 
 Inheritance terdiri dari class utama yang digunakan untuk me-running code, Class MakhlukHidup sebagai Superclass, Subclass Hewan yang akan meng-extend superclass MakhlukHidup, 
 Class Aves yang akan meng-extend subclass Hewan, Class Mamalia yang akan meng-extend subclass Hewan, Class Amfibi yang akan meng-extend subclass Hewan, 
 Class Reptil akan meng-extend subclass Hewan dan Class Pisces akan meng-extend subclass Hewan. Subclass Tumbuhan yang akan meng-extend superclass MakhlukHidup, 
@@ -344,7 +345,7 @@ public class Dikotil extends Tumbuhan {
 
 - Setter merupakan method yang digunakan untuk mengatur nilai dari atribut privat suatu class. Method setter tidak memiliki nilai kembalian void(kosong), karena tugasnya hanya mengisi data ke dalam atribut. Penamaan pada method set biasanya diberi awalan set kemudian diikuti dengan nama atribut.  
 
-- Getter merupakan method yang digunakan unutk mengambil nilai dari atribut privat suatu class. Berbeda dengan method setter yang tidak memiliki nilai kembalian, method getter memiliki nilai kembalian sesuai dengan tipe data yang akan diambil. Penamaan pada method getter biasanya diberi awalan get kemudian diikuti dengan nama atribut.  
+- Getter merupakan method yang digunakan untuk mengambil nilai dari atribut privat suatu class. Berbeda dengan method setter yang tidak memiliki nilai kembalian, method getter memiliki nilai kembalian sesuai dengan tipe data yang akan diambil. Penamaan pada method getter biasanya diberi awalan get kemudian diikuti dengan nama atribut.  
 
 ## 🔍 Source Code penerapan Setter dan Getter 
 
@@ -367,3 +368,8 @@ public class Aves extends Hewan {
     }
 } 
 ```
+---
+# 📝 Kesimpulan
+- Inheritance merupakan konsep pewarisan yang memungkinkan sebuah kelas (subclass) untuk mewarisi atribut dan metode dari kelas lain (superclass).
+- Metode setter dan getter adalah teknik yang digunakan untuk mengelola akses ke atribut dalam suatu kelas.
+ Setter merupakan method yang digunakan untuk mengatur nilai dari atribut privat suatu class, sedangkan getter digunakan untuk mengambil nilai atribut tersebut.
